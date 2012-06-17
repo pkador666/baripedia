@@ -1,0 +1,161 @@
+body {
+	width: 800px;
+	margin: 0 auto;
+	font-family: arial;
+	background-color: #e0ef9c;
+	/*#ccdf8e;*/
+}
+a,p,ul {
+	margin: 0;
+	padding: 0;
+}
+#header {
+	float: left;
+	width: 800px;
+}
+.text-title {
+	font-size: 40px;
+	font-weight: bold;
+	color: #71AEEA;
+	width: 580px;
+	float:left;
+	margin-right:20px;
+	
+}
+.object {
+	text-transform: uppercase;
+	font-size: 60px;
+	letter-spacing: 1px;
+	text-shadow: 1px 1px 1px #3B71A7;
+	float:left;
+	margin-top: 10px;
+}
+.wiki {
+	font-size: 55px;
+	color: #A55ED2;
+	margin-top: 15px;
+	text-shadow: 1px 1px 1px #6B348D;
+	float:left;
+}
+
+.dot {
+	float:left;
+	-webkit-transform: rotate(-90deg);
+	font-size: 28px;
+	line-height: 0px;
+	margin-top: 45px;
+	margin-left: -10px;
+	color: #BFBFBF;
+	text-shadow: 1px 1px 1px #4D4D4D;
+}
+.country {
+	float:left;
+	margin-top: 15px;
+	margin-left: -10px;
+	font-size: 45px;
+	color: #000;
+	text-shadow: 1px 1px 1px #68E568;
+}
+#header ul {
+	float: left;	
+	width: 200px;
+}
+
+#header ul li {
+	display: inline;
+	padding:0 5px;
+}
+
+#content {
+	float:left;
+	width: 800px;
+	border-bottom: 2px dashed #BFBFBF;
+}
+.sidebar {
+	float:left;
+	width: 300px;
+}
+.sidebar {
+	list-style: none;
+}
+.sidebar a {
+	text-decoration: none;
+	color: #AEBF65;
+	font-weight: bold;
+	font-size: 40px;
+	text-shadow: 1.5px 1.5px 1.5px #6C8D34;
+	-webkit-transition: font-size 0.6s ease;
+}
+
+/* color from web 
+ * title
+ * #0081df
+ * lila
+ * verde
+ * celeste
+ * rojizo
+ * verde-azul
+ * naranja
+ * 
+ * 
+ * 
+ * */
+
+
+.sidebar a:hover {
+	font-size: 50px;
+}
+.content {
+	float: left;
+	width: 480px;
+	padding: 10px;
+	background-color: #ccdf8e;
+	/* Styles of border box */
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	
+}
+
+#social {
+	float:left;
+	width: 800px;
+}
+.social {
+	width: 250px;
+	margin-right: 50px;
+	float: left;
+	list-style: none;
+}
+.social li {
+	display: inline;
+}
+
+.social img {
+	width: 50px;
+	height: 50px;
+	opacity: 0.7;
+}
+.social img:hover {
+	opacity:1;
+}
+.tag_cloud {
+	width: 500px;
+	float: left;
+	list-style: none;
+}
+.tag_cloud a{
+	text-decoration: none;
+	color: #4D4D4D;
+}
+.tag_cloud li {
+	display:inline;
+}
+#footer {
+	text-align:center;
+	font-size: 10px;
+	text-shadow: 1px 1px 1px #BFBFBF;
+	color: #4D4D4D;
+}
+
