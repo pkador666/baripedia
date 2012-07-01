@@ -1,0 +1,41 @@
+@font-face {
+	font-family: apogee;
+	src: url("../fonts/apogee_rounded.otf");
+}
+@font-face {
+	font-family: delicious;
+	src: url("../fonts/delicious_roman.otf");
+}
+@font-face {
+	font-family: forum;
+	src: url("../fonts/forum.ttf");
+}
+@font-face {
+	font-family: junction;
+	src: url("../fonts/junction.otf");
+}
+@font-face {
+	font-family: metropolis;
+	src: url("../fonts/metropolis.otf");
+}
+@font-face {
+	font-family: origam;
+	src: url("../fonts/origam.otf");
+}
+@font-face {
+	font-family: rex-bold;
+	src: url("../fonts/rex_bold.otf");
+}
+@font-face {
+	font-family: rex-light;
+	src: url("../fonts/rex_light.otf");
+}
+@font-face {
+	font-family: rex-bold-inline;
+	src: url("../fonts/rex_bold_inline.otf");
+}
+@font-face {
+	font-family: urbe;
+	src: url("../fonts/urbe.otf");
+}
+

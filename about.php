@@ -9,7 +9,7 @@
 	<link media="screen" rel="stylesheet" type="text/css" href="css/content-css.css"/>
 </head>
 <body>
-	<ul>
+	<ul class="about-list">
 		<li>
 			<div class="accounts">
 				<img src="img/thum_facebook.png"/>

@@ -1,11 +1,13 @@
 <?php
 //Archivo de Configuraciones de la Baripedia
-
+session_start();
 $server="localhost";
 $user_db="root";
 $password_db="toor";
 $name_db="baripedia";
 
+$connection=mysql_connect($server,$user_db,$password_db);
+$select_db=mysql_select_db($name_db);
 
 //Configuracion de Variables
 // --- Comentarios - Sugerencias

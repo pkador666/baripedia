@@ -11,6 +11,6 @@
 </head>
 <body>
 	<span id="contact-text">To contact the admin of this application, send an email to:
-	<a href="mailto:admin@baripedia.com">admin(arroba)baripedia(dot)com</a></span>
+	<a href="mailto:admin@baripedia.com">admin<span title="@">(arroba)</span>baripedia<span title=".">(dot)</span>com</a></span>
 </body>
 </html>
