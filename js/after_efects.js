@@ -45,13 +45,13 @@ $("document").ready(function() {
 				'type'          : 'iframe'
 			});
 			
-		$(".comments-photo").fancybox({
-			'autoScale'     : true,  
+		$("a[rel=group]").fancybox({
+			'autoScale'     : false,  
 			'transitionIn'      : 'elastic',  
-			'transitionOut'     : 'elastic',  
+			'transitionOut'     : 'elastic', 
 			'width'         : 800,  
 			'height'        : 700,  
-			'type'          : 'iframe'
+			'type'          : 'iframe',
 		});
 			
 	

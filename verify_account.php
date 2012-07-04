@@ -7,6 +7,7 @@ if(strlen($_POST["username"])>0) {
 	$sql="select * from bar_user where username='$username' and password='$password'";
 	$result=mysql_query($sql);
 	while ($row=mysql_fetch_assoc($result)) {
+		$_SESSION["user"]["id"]=$row["id"];
 		$_SESSION["user"]["full_name"]=$row["full_name"];
 		$_SESSION["user"]["description"]=$row["description"];
 		$_SESSION["user"]["last_login"]=$row["last_login"];

@@ -13,6 +13,9 @@ if (strlen($_SESSION["user"]["full_name"])>0) {
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	<meta name="generator" content="Geany 0.21" />
 	<link media="screen" href="css/comments.css" rel="stylesheet" type="text/css"/>
+	<script src="js/jquery.js" type="text/javascript"></script>
+	<script src="js/comments.js" type="text/javascript"></script>
+	
 </head>
 <body>
 	
@@ -43,10 +46,12 @@ if (strlen($_SESSION["user"]["full_name"])>0) {
 			<span class="comment-user"><strong><?php print $row["full_name"];?>:</strong></span><span class="comment-content"><?php print $row["content"];?></span><br>
 			<span class="comment-date">Comentado el <?php print date('d/m/Y',$row["date"]);?></span>
 		</li>
+		
 	<?php }?>
+		<li class="js-new-comment"></li>
 	</ul>
 	<ul id="insert-comment">
-		<li class="insert-comment"><img src="img/insert_comment.png"><textarea id="new_comment" name="new_comment"></textarea></li>
+		<li class="insert-comment"><img src="img/insert_comment.png"><textarea id_photo="<?php print $id; ?>" id="new_comment"></textarea></li>
 	</ul>
 	</div>
 	

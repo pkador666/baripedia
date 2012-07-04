@@ -42,7 +42,7 @@ if (strlen($_SESSION["user"]["full_name"])>0) {
 				$result_aux=mysql_query($sql_aux);
 				while ($row_aux=mysql_fetch_assoc($result_aux)){
 				?>
-					<a href="comments-photo.php?id=<?php print $row_aux["id"]; ?>" class="comments-photo" ><li class="album-img"><img src="<?php print $row_aux["photo"]; ?>" title="<?php print $row["full_name"];?>"/></li></a>
+					<a href="comments-photo.php?id=<?php print $row_aux["id"]; ?>" class="comments-photo" rel="group" ><li class="album-img"><img src="<?php print $row_aux["photo"]; ?>" title="<?php print $row["full_name"];?>"/></li></a>
 				<?php 
 				}
 				?>

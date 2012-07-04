@@ -7,7 +7,7 @@ if (strlen($_POST["username"])>0){
 	$password=md5($_POST["password"]);
 	$last_login=time();
 	$date_update=time();
-	$sql="insert into bar_user values('','$username','$password','$full_name','$last_login','','$date_update')";
+	$sql="insert into bar_user values('','$username','$password','$full_name','','$last_login','img/default_user.png','$date_update')";
 	$result=mysql_query($sql);
 	print $sql;
 	setcookie("success","<strong>Congrats, you did it!</strong><br>He sent an email to activate your account",time()+1);
