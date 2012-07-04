@@ -11,6 +11,10 @@
 	src: url("../fonts/forum.ttf");
 }
 @font-face {
+	font-family: intro_inline;
+	src: url("../fonts/intro_inline.otf");
+}
+@font-face {
 	font-family: junction;
 	src: url("../fonts/junction.otf");
 }
@@ -19,8 +23,8 @@
 	src: url("../fonts/metropolis.otf");
 }
 @font-face {
-	font-family: origam;
-	src: url("../fonts/origam.otf");
+	font-family: origram;
+	src: url("../fonts/origram.otf");
 }
 @font-face {
 	font-family: rex-bold;

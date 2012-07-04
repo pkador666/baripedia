@@ -10,6 +10,15 @@ if ($_SESSION["user"]) {
 	<title>Profile</title>
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	<meta name="generator" content="Geany 0.21" />
+	<script src="js/jquery.js" type="text/javascript"></script>
+	<script src="js/after_efects.js" type="text/javascript"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<?php if ($_SESSION["user"]) {?>
+	<link rel="stylesheet" media="screen" href="css/bubble.css" type="text/css"/>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<?php } else { ?><link rel="stylesheet" media="screen" href="css/navigation.css" type="text/css"/>
+	
+	<?php }?>
 </head>
 
 <body>
